@@ -1,0 +1,8 @@
+.root {
+    -fx-background-image: url("tudien.jpg");
+    -fx-font-size: 9pt;
+}
+.button
+{
+    -fx-background-color: #0000;
+}
