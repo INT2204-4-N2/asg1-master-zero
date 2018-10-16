@@ -1,8 +1,8 @@
-package masterzero;
+package sample;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Dictionary {
+public  class Dictionary {
     ArrayList<Word>Dictionarys= new ArrayList<>();
 
     public void setDictionarys(ArrayList<Word> dictionarys) {
