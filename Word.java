@@ -1,5 +1,4 @@
-package masterzero;
-import java.util.Scanner;
+package sample;
 
 public class Word {
     String getWord_target() {
@@ -11,6 +10,7 @@ public class Word {
     }
 
     String word_target;
+    String word_plain;
 
     public String getWord_plain() {
         return word_plain;
@@ -20,6 +20,11 @@ public class Word {
         this.word_plain = word_plain;
     }
 
-    String word_plain;
+    public void word(String a,String b)
+    {
+       this.word_target=a;
+        this.word_plain=b;
+    }
+
 
 }
