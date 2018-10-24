@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="test1.jnlp">
+  <information>
+    <title>test1</title>
+    <vendor>Unknown</vendor>
+    <description>test1</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="sample\lib\googletranslate api\20150729\json-20150729.jar" size="48269" download="eager" />
+    <jar href="sample\lib\googletranslate api\java-flac-encoder\0.3.7\java-flac-encoder-0.3.7.jar" size="89315" download="eager" />
+    <jar href="sample\lib\googletranslate api\java-google-speech-api\V2.0\java-google-speech-api-V2.0.jar" size="51073" download="eager" />
+    <jar href="sample\lib\gtranslateapi-1.0.jar" size="11086" download="eager" />
+    <jar href="sample\lib\jl1.0.jar" size="105446" download="eager" />
+    <jar href="test1.jar" size="196847" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="test1" />
+  <update check="background"/>
+</jnlp>
